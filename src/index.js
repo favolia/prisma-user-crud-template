@@ -13,7 +13,7 @@ const { Store, Get, Update, Destroy } = require("./function/crud");
 // })
 
 
-// Fetch all Ssers
+// Fetch all Users
 // ----------------------
 // Get().then(d => console.log(d))
 
@@ -28,6 +28,7 @@ const { Store, Get, Update, Destroy } = require("./function/crud");
 //     isAdult: true, // [Required]
 //     phone: '62800000000' // [Optional]
 // }).then(d => console.log(d))
+
 
 // Delete user by id
 // ----------------------
